@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "thirdtest"
+  annotations:
+    github.com/project-slug: corganfuzz/thridtest
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: test.yaml, ggshield.yaml
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/corganfuzz"
